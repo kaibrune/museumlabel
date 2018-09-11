@@ -1,0 +1,11 @@
+var c = document.getElementById("myCanvas");
+var label = c.getContext("2d");
+var h1text = "Wayne Thiebaud";
+var h1text2 = "(b. 1920)";
+var h1text3 = "River and Farms";
+var h1text4 = "1920";
+label.font = "bold 30px Arial";
+label.fillText(h1text + ' ' + h1text2,20,50);
+label.font = "italic bold 30px Arial";
+label.fillText(h1text3,20,100);
+label.font =  "30px Arial";
